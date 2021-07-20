@@ -1,0 +1,24 @@
+#headerList  {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4d5252;
+    color: white;
+    }
+#headerList li {
+    list-style-type: none;
+    float: left;
+    padding: .4em;
+}
+
+form {
+    text-align: center;
+}
+button {
+    background-color: #4e71ba;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
