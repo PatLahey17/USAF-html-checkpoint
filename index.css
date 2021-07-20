@@ -1,24 +1,45 @@
-#headerList  {
+#headerList {
     display: flex;
     justify-content: space-between;
     background-color: #4d5252;
     color: white;
-    }
-#headerList li {
+  }
+  #headerList li {
     list-style-type: none;
     float: left;
-    padding: .4em;
-}
-
-form {
+    padding: 0.4em;
+  }
+  .home-button {
+    color: white;
+  }
+  form {
     text-align: center;
-}
-button {
+  }
+  button {
     background-color: #4e71ba;
     color: white;
-}
-a {
+  }
+  a {
     color: white;
     text-decoration: none;
-}
-
+  }
+  section {
+    background-color: #4d5252;
+    color: #b3b336;
+    font-size: 0.8em;
+  }
+  #moviePics li {
+    width: 20%;
+    list-style-type: none;
+    float: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.8em;
+    padding-right: 1.5em;
+  }
+  #moviePics img {
+    width: 100%;
+    list-style-type: none;
+    float: left;
+  }
+/* change login to color grey */
